@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoQuiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">记录</string>
+    <string name="action_practise">巡查</string>
+    <string name="action_reward">颁奖</string>
+    <string name="title_activity_add">记录一个错题或知识点</string>
+    
+    <string name="qustionLable">问题是：</string>
+    <string name="question_default_text">请在这里输入问题</string>
+    <string name="answerLable">答案是：</string>
+    <string name="answer_default_Text">请在这里输入答案</string>
+    
+    
+    <string name="save_text">保存并继续录入</string>
+    <string name="return_text">结束录入并返回</string>
+</resources>
