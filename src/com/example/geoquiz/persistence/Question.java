@@ -1,7 +1,8 @@
 /*
- * ��ҵ��
- * ԭ�������ѡ���⣬
- * ����չ����һ������⣬id_optionals = null
+ * 作业题
+ * 原来是针对选择题，
+ * 可扩展用于一般的问题，id_optionals = null
+ * 2015-11-15  应该增加知识点的字段
  */
 package com.example.geoquiz.persistence;
 
@@ -12,11 +13,13 @@ public class Question {
 
 	public String imageUrl = null;
 
-	public String tip = null;
+	public String tip = null;  // 这里应该用 @answer@ 来指明填空处
 
 	public String[] id_optionals = null;
 
 	public String id_answer = null;
+	
+	public String remark = null; // 知识点描述
 
 	public Question(String tip, String imageUrl) {
 		this.tip = tip;
